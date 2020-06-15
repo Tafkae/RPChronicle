@@ -2,9 +2,9 @@
 
 ## Chronicles
 
-* 5/31/20 \|\| [Jungle → Camp Righteous](https://tafkae.github.io/RPChronicle/ToA_5-31-20)
-* 6/07/20 \|\| [Camp Righteous](https://tafkae.github.io/RPChronicle/ToA_6-07-20)
-* 6/14/20 \|\| [Camp Vengeance](https://tafkae.github.io/RPChronicle/ToA_6-14-20)
+* 5/31/20 \|\| [Jungle → Camp Righteous](https://tafkae.github.io/RPChronicle/ToA/session/ToA_5-31-20)
+* 6/07/20 \|\| [Camp Righteous](https://tafkae.github.io/RPChronicle/ToA/session/ToA_6-07-20)
+* 6/14/20 \|\| [Camp Vengeance](https://tafkae.github.io/RPChronicle/ToA/session/ToA_6-14-20)
 
 ## PCs
 
