@@ -12,7 +12,7 @@
 * **Creed** \|\| human ♂, paladin 4 
 * **Eridian** \|\| wood elf ♀, druid 3
 * **Lureene Tallstag** \|\| human ♀, fighter 3 (eldritch knight)
-* **Molly** \|\| dragonborn ♀, fighter 3
+* **Molly** \|\| dragonborn ♀, fighter 4
 
 ## Notable NPCs
 
