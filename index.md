@@ -18,3 +18,7 @@
 
 * **Azaka** \|\| human ♀, hired guide
 * **Dennis** \|\| goblin ♂, porter
+* **Order of the Gauntlet**
+  * Commander Niles Breakbone \|\| human ♂, paladin, zealot
+  * Ord \|\| dwarf ♂, paladin, subordinate, errs toward Lawful
+  * Pern \|\| human ♀, paladin, subordinate, errs toward Good
