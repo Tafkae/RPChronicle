@@ -1,3 +1,8 @@
+---
+layout: top
+title: Tomb of Annihilation Campaign
+---
+
 # Tomb of Annihilation Campaign
 
 ## Chronicles
@@ -9,7 +14,7 @@
 ## PCs
 
 * **Alatu** \|\| human ♀, wizard 3 (necromancer)
-* **Creed** \|\| human ♂, paladin 4 
+* **Creed** \|\| human ♂, paladin 4
 * **Eridian** \|\| wood elf ♀, druid 3
 * **Lureene Tallstag** \|\| human ♀, fighter 3 (eldritch knight)
 * **Molly** \|\| dragonborn ♀, fighter 4
