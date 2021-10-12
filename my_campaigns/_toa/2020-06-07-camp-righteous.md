@@ -1,10 +1,14 @@
+---
+title: Camp Righteous
+date: 2020-06-07
+---
 *Our heroes find Camp Righteous abandoned; they delve a trap-filled ruin in search of treasure, and nearly die, but it's worth it for a jug of infinite mayonnaise*
 
 ---
 
 # Events
 
-## *Day 23*
+## Day 23
 
 Molly was attacked by a boa constrictor.  
 
@@ -15,9 +19,9 @@ Azaka said to ignore them. Eridian identified them as Eblis, rumored to be reinc
 
 Turns out it's a forward post that was overrun by the undead; now abandoned. Camp Vengeance is the one where it's possible to resupply.
 
-Camp Righteous had a weird statue of a man carrying a crocodile on its back, which relates to an old folk tale. Croc carried Man across a river, and in return demanded that Man carry Croc across all the realms of Men, which is why Men and Crocodiles will never be friends.  
+> Camp Righteous had a weird statue of a man carrying a crocodile on its back, which relates to an old folk tale. Croc carried Man across a river, and in return demanded that Man carry Croc across all the realms of Men, which is why Men and Crocodiles will never be friends.
 
-Molly found a baby axebeak.  
+Molly found a baby axebeak.
 
 Lureene noticed a gap between the legs of the statue, filled with spiderwebs. Those who could sense such things realized the statue was very magical.  
 
@@ -27,7 +31,7 @@ Creed wandered off in search of the baby axebeak. He found it, but also some gob
 
 Alatu caught a bunch of fish, and had Dennis cook it up into a sort of banquet. Molly tried to set out formal place settings, but did it slightly wrong, so Lureene had to fix it.
 
-## *Day 24*
+## Day 24
 
 Lureene wanted to explore the statue before they left. However, she fell down a pit trap and everybody nearly died from the combination of that and a swinging blade trap. Fortunately, everyone managed to escape.
 

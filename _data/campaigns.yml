@@ -1,0 +1,9 @@
+- name: Tomb of Annihilation
+  short_name: toa
+  link: /toa
+- name: Waterdeep Heist
+  short_name: waterdeep
+  link: /waterdeep
+- name: Adventure Goddesses
+  short_name: goddesses
+  link: /goddesses

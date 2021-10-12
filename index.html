@@ -1,0 +1,9 @@
+---
+type: index
+---
+<h1>Campaigns</h1>
+
+{% for campaign in site.data.campaigns %}
+  <h3><a href="{{ campaign.link }}">{{ campaign.name }}</a></h3>
+{% endfor %}
+</ul>

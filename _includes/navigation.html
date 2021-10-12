@@ -1,0 +1,6 @@
+<nav>
+  <a href="/">Home</a>
+  {% for campaign in site.data.campaigns %}
+    <a href="{{ campaign.link }}"{% if page.url == campaign.link %}class="current"{% endif %}>{{ campaign.name }}</a>
+  {% endfor %}
+</nav>

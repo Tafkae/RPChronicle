@@ -1,3 +1,7 @@
+---
+title: Camp Righteous &rarr; Camp Vengeance
+date: 2020-06-14
+---
 *Our heroes seek supplies, and instead get conscripted; they resist arrest, but are arrested anyway; and Eridian accidentally does a war crime*
 
 ---
