@@ -1,9 +1,9 @@
 - name: Tomb of Annihilation
   short_name: toa
-  link: /toa
+  link: {{ '/toa' | relative_url }}
 - name: Waterdeep Heist
   short_name: waterdeep
-  link: /waterdeep
+  link: {{ '/waterdeep' | relative_url }}
 - name: Adventure Goddesses
   short_name: goddesses
-  link: /goddesses
+  link: {{ '/goddesses' | relative_url }}
