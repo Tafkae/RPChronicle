@@ -1,0 +1,94 @@
+toa:
+  player_characters:
+  - name: Alatu
+    race: human
+    gender: f
+    class_A: [ wizard, 7 ]
+    class_B: [ null, null ]
+    subclass: necromancer
+    in_party: true
+    player: Corina
+  - name: Creed
+    race: human
+    gender: m
+    class_A: [ paladin, 8 ]
+    class_B: [ null, null ]
+    subclass: oath of vengeance
+    in_party: true
+    player: Jason
+  - name: Eridian
+    race: wood elf
+    gender: f
+    class_A: [ druid, 7 ]
+    class_B: [ null, null ]
+    subclass: '???'
+    in_party: true
+    player: Paul
+  - name: Lureene Tallstag
+    race: half-elf
+    gender: f
+    class_A: [ fighter, 7 ]
+    class_B: [ null, null ]
+    subclass: eldritch knight
+    in_party: true
+    player: Lisa
+    portrait: Lureene_portrait.png
+  - name: Molly
+    race: dragonborn
+    gender: f
+    class_A: [ fighter, 8 ]
+    class_B: [ null, null ]
+    subclass: battle master
+    in_party: false
+    player: Breanna
+  - name: Karnassus
+    race: yuan-ti pureblood
+    gender: m
+    class_A: [ warlock, 6 ]
+    class_B: [ null, null ]
+    subclass: celestial
+    in_party: false
+    player: Paul
+  - name: Shaggy
+    race: tiefling
+    gender: f
+    class_A: [ ranger, 7 ]
+    class_B: [ null, null ]
+    subclass: '???'
+    in_party: true
+    player: Breanna
+
+waterdeep:
+  player_characters:
+  - name: Smoke on the Water
+    race: tabaxi
+    gender: m
+    class_A: [ rogue, 3 ]
+    class_B: [ null, null ]
+    subclass: inquisitive
+    in_party: true
+    player: Lisa
+  - name: Nef Artemel
+    race: human
+    gender: m
+    class_A: [ bard, 3 ]
+    class_B: [ null, null ]
+    subclass: college of spirits
+    in_party: true
+    player: Bryan
+  - name: Esmeralda Amethyst
+    race: human
+    gender: f
+    class_A: [ rogue, 3 ]
+    class_B: [ null, null ]
+    subclass: '???'
+    in_party: true
+    player: Corina
+  - name: Thernek Clockmort
+    race: dwarf
+    gender: m
+    class_A: [ artificer, 3 ]
+    class_B: [ null, null ]
+    subclass: '???'
+    in_party: false
+    player: Bethany

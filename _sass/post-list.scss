@@ -1,0 +1,45 @@
+/* variables */
+
+
+/* styles */
+
+#main_content {
+    padding-top: 20px;
+}
+
+.list-container {
+}
+
+.list-item {
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) 3fr;
+    grid-template-rows: 2fr 5fr;
+    grid-template-areas:
+        "date title"
+        "excerpt excerpt";
+    align-items: center;
+    justify-items: stretch;
+    padding: 0.8rem 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.list-item:last-of-type {
+    border-bottom: none;
+}
+
+.list-date {
+    grid-area: date;
+}
+
+.list-title {
+    grid-area: title;
+}
+
+.list-excerpt {
+    grid-area: excerpt;
+    padding-left: 2rem;
+}
+
+.list-excerpt p {
+    margin: 0;
+}

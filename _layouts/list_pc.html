@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{% assign pcs = site.data.pcs[page.campaign].player_characters %}
+
+<h2>Player Characters</h2>
+
+<div class="char-list-container">
+  <div class="char-list-row">
+    <div class="char-list-header"></div>
+    <div class="char-list-header">Name</div>
+    <div class="char-list-header">Race</div>
+    <div class="char-list-header">Gender</div>
+    <div class="char-list-header">Class</div>
+    <div class="char-list-header">Level</div>
+    <div class="char-list-header">Subclass</div>
+    <div class="char-list-header">Player</div>
+  </div>
+
+  {% for pc in pcs %}
+  <div class="char-list-row">
+    <div class="char-portrait" style="background-image: url('/assets/images/{{page.campaign}}/{{ pc.portrait }}');"></div>
+    <div><strong>{{ pc.name }}</strong></div>
+    <div>{{ pc.race }}</div>
+    <div>{% if pc.gender == "f" %}&female;{% elsif pc.gender == "m" %}&male;{% else %}{{ pc.gender }}{% endif %}</div>
+
+  </div>
+  {% endfor %}
+
+</div>
+
+
+
+<!--
+
+
+      <strong>{{ pc.name }}</strong>
+      {{ pc.race }}
+        {% if pc.gender == "f" %}&female;{% elsif pc.gender == "m" %}&male;{% else %}{{ pc.gender }}{% endif %}
+
+ -->

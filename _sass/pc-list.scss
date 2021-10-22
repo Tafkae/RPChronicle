@@ -1,0 +1,27 @@
+/* variables */
+
+
+/* styles */
+
+.char-list-container {
+    display: grid;
+    grid-auto-rows: 50px;
+}
+
+.char-list-row {
+    display: grid;
+    grid-template-columns: minmax(100px, 2fr) repeat(7, minmax(80px,1fr));
+    grid-template-rows: 1fr 1fr;
+}
+
+.char-list-header {
+    background: darkgrey;
+    color: white;
+    font-weight: bold;
+}
+
+.char-portrait {
+    grid-column: 1;
+    grid-row-end: span 2;
+    background-size: cover;
+}

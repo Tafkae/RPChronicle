@@ -1,1 +1,49 @@
+title: My RP Chronicle
+description: DnD campaign stuff
+
 theme: jekyll-theme-slate
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections_dir: my_campaigns
+
+collections:
+  toa:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year/:month/:day/:title/
+  waterdeep:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year/:month/:day/:title/
+  goddesses:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "toa"
+    values:
+      layout: "post"
+  - scope:
+      path: "_toa"
+    values:
+      campaign: "toa"
+  - scope:
+      path: "_waterdeep"
+    values:
+      campaign: "waterdeep"
+  - scope:
+      path: "_goddesses"
+    values:
+      campaign: "goddesses"
