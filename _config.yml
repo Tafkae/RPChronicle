@@ -19,7 +19,7 @@ collections:
     output: true
     sort_by: date
     permalink: /:collection/:year/:month/:day/:title/
-  goddesses:
+  nwgirls:
     output: true
     sort_by: date
     permalink: /:collection/:year/:month/:day/:title/
@@ -44,6 +44,6 @@ defaults:
     values:
       campaign: "waterdeep"
   - scope:
-      path: "_goddesses"
+      path: "_nwgirls"
     values:
-      campaign: "goddesses"
+      campaign: "_nwgirls"

@@ -1,30 +1,77 @@
 ---
 layout: default
 ---
-{% assign pcs = site.data.pcs[page.campaign].player_characters %}
+{% assign pcs_current = site.data.pcs[page.campaign].player_characters | where: "in_party", "true" %}
+{% assign pcs_former = site.data.pcs[page.campaign].player_characters | where: "in_party", "false" %}
 
 <h2>Player Characters</h2>
 
-<div class="char-list-container">
-  <div class="char-list-row">
-    <div class="char-list-header"></div>
-    <div class="char-list-header">Name</div>
-    <div class="char-list-header">Race</div>
-    <div class="char-list-header">Gender</div>
-    <div class="char-list-header">Class</div>
-    <div class="char-list-header">Level</div>
-    <div class="char-list-header">Subclass</div>
-    <div class="char-list-header">Player</div>
-  </div>
+<h3>Current</h3>
 
-  {% for pc in pcs %}
-  <div class="char-list-row">
-    <div class="char-portrait" style="background-image: url('/assets/images/{{page.campaign}}/{{ pc.portrait }}');"></div>
-    <div><strong>{{ pc.name }}</strong></div>
-    <div>{{ pc.race }}</div>
-    <div>{% if pc.gender == "f" %}&female;{% elsif pc.gender == "m" %}&male;{% else %}{{ pc.gender }}{% endif %}</div>
+<table class="char-table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Race</th>
+      <th>Gender</th>
+      <th>Class</th>
+      <th>Player</th>
+    </tr>
+  </thead>
 
-  </div>
-  {% endfor %}
+  <tbody>
+    {% for pc in pcs_current %}
+    <tr>
+      <td class="char-portrait" style="background-image: url('/assets/images/{{ page.campaign }}/{{ pc.portrait }}');">&nbsp;</td>
+      <td><strong>{{ pc.name }}</strong></td>
+      <td>{{ pc.race | capitalize }}</td>
+      <td>{% if pc.gender == "f" %}&female;
+          {% elsif pc.gender == "m" %}&male;
+          {% else %}{{ pc.gender }}
+          {% endif %}</td>
+      <td>
+        {% for c in pc.classes %}
+        <p>{{ c[0] }} {{c[1]}} ({{c[2]}})</p>
+        {% endfor %}
+      </td>
+      <td>{{ pc.player }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
-</div>
+<h3>Former</h3>
+
+<table class="char-table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Race</th>
+      <th>Gender</th>
+      <th>Class</th>
+      <th>Player</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for pc in pcs_former %}
+    <tr>
+      <td class="char-portrait" style="background-image: url('/assets/images/{{ page.campaign }}/{{ pc.portrait }}');">&nbsp;</td>
+      <td><strong>{{ pc.name }}</strong></td>
+      <td>{{ pc.race | capitalize }}</td>
+      <td>{% if pc.gender == "f" %}&female;
+          {% elsif pc.gender == "m" %}&male;
+          {% else %}{{ pc.gender }}
+          {% endif %}</td>
+      <td>
+        {% for c in pc.classes %}
+        <p>{{ c[0] }} {{c[1]}} ({{c[2]}})</p>
+        {% endfor %}
+      </td>
+      <td>{{ pc.player }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

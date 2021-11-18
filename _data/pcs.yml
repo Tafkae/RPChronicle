@@ -3,58 +3,44 @@ toa:
   - name: Alatu
     race: human
     gender: f
-    class_A: [ wizard, 7 ]
-    class_B: [ null, null ]
-    subclass: necromancer
+    classes: [[wizard, 7, necromancer]]
     in_party: true
     player: Corina
   - name: Creed
     race: human
     gender: m
-    class_A: [ paladin, 8 ]
-    class_B: [ null, null ]
-    subclass: oath of vengeance
+    classes: [[paladin, 8, oath of vengeance]]
     in_party: true
     player: Jason
   - name: Eridian
     race: wood elf
     gender: f
-    class_A: [ druid, 7 ]
-    class_B: [ null, null ]
-    subclass: '???'
+    classes: [[druid, 7, '???']]
     in_party: true
     player: Paul
   - name: Lureene Tallstag
     race: half-elf
     gender: f
-    class_A: [ fighter, 7 ]
-    class_B: [ null, null ]
-    subclass: eldritch knight
+    classes: [[fighter, 8, eldritch knight]]
     in_party: true
     player: Lisa
     portrait: Lureene_portrait.png
   - name: Molly
     race: dragonborn
     gender: f
-    class_A: [ fighter, 8 ]
-    class_B: [ null, null ]
-    subclass: battle master
+    classes: [[fighter, 8, battle master]]
     in_party: false
     player: Breanna
   - name: Karnassus
     race: yuan-ti pureblood
     gender: m
-    class_A: [ warlock, 6 ]
-    class_B: [ null, null ]
-    subclass: celestial
+    classes: [[warlock, 6, celestial]]
     in_party: false
     player: Paul
   - name: Shaggy
     race: tiefling
     gender: f
-    class_A: [ ranger, 7 ]
-    class_B: [ null, null ]
-    subclass: '???'
+    classes: [[ranger, 7, beastmaster]]
     in_party: true
     player: Breanna
 
@@ -63,33 +49,25 @@ waterdeep:
   - name: Smoke on the Water
     race: tabaxi
     gender: m
-    class_A: [ rogue, 3 ]
-    class_B: [ null, null ]
-    subclass: inquisitive
+    classes: [[rogue, 3, inquisitive]]
     in_party: true
     player: Lisa
   - name: Nef Artemel
     race: human
     gender: m
-    class_A: [ bard, 3 ]
-    class_B: [ null, null ]
-    subclass: college of spirits
+    classes: [[bard, 3, college of spirits]]
     in_party: true
     player: Bryan
   - name: Esmeralda Amethyst
     race: human
     gender: f
-    class_A: [ rogue, 3 ]
-    class_B: [ null, null ]
-    subclass: '???'
+    classes: [[rogue, 3, '???']]
     in_party: true
     player: Corina
   - name: Thernek Clockmort
     race: dwarf
     gender: m
-    class_A: [ artificer, 3 ]
-    class_B: [ null, null ]
-    subclass: '???'
+    classes: [[artificer, 3, '???']]
     in_party: false
     player: Bethany
 
@@ -98,40 +76,30 @@ nwgirls:
   - name: Charmaine Till
     race: tiefling
     gender: f
-    class_A: [ wizard, 1 ]
-    class_B: [ null, null ]
-    subclass: null
+    classes: [[wizard, 1, N/A]]
     in_party: true
     player: Lisa
   - name: Rhogarah
     race: dragonborn (red)
     gender: f
-    class_A: [ fighter, 1 ]
-    class_B: [ null, null ]
-    subclass: null
+    classes: [[fighter, 1, N/A]]
     in_party: true
     player: Michelle
   - name: Phaen of the Wood
     race: wood elf
     gender: f
-    class_A: [ ranger, 1 ]
-    class_B: [ null, null ]
-    subclass: null
+    classes: [[ranger, 1, N/A]]
     in_party: true
     player: Elizabeth
   - name: Talia
     race: dragonborn (blue)
     gender: f
-    class_A: [ bard, 1 ]
-    class_B: [ null, null ]
-    subclass: null
+    classes: [[bard, 1, N/A]]
     in_party: true
     player: April
   - name: Winifred
     race: halfling
     gender: f
-    class_A: [ druid, 1 ]
-    class_B: [ null, null ]
-    subclass: null
+    classes: [[druid, 1, N/A]]
     in_party: true
     player: Robin
