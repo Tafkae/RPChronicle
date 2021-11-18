@@ -92,3 +92,46 @@ waterdeep:
     subclass: '???'
     in_party: false
     player: Bethany
+
+nwgirls:
+  player_characters:
+  - name: Charmaine Till
+    race: tiefling
+    gender: f
+    class_A: [ wizard, 1 ]
+    class_B: [ null, null ]
+    subclass: null
+    in_party: true
+    player: Lisa
+  - name: Rhogarah
+    race: dragonborn (red)
+    gender: f
+    class_A: [ fighter, 1 ]
+    class_B: [ null, null ]
+    subclass: null
+    in_party: true
+    player: Michelle
+  - name: Phaen of the Wood
+    race: wood elf
+    gender: f
+    class_A: [ ranger, 1 ]
+    class_B: [ null, null ]
+    subclass: null
+    in_party: true
+    player: Elizabeth
+  - name: Talia
+    race: dragonborn (blue)
+    gender: f
+    class_A: [ bard, 1 ]
+    class_B: [ null, null ]
+    subclass: null
+    in_party: true
+    player: April
+  - name: Winifred
+    race: halfling
+    gender: f
+    class_A: [ druid, 1 ]
+    class_B: [ null, null ]
+    subclass: null
+    in_party: true
+    player: Robin
