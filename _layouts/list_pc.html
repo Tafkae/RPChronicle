@@ -23,7 +23,7 @@ layout: default
   <tbody>
     {% for pc in pcs_current %}
     <tr>
-      <td class="char-portrait" style="background-image: url('/assets/images/{{ page.campaign }}/{{ pc.portrait }}');">&nbsp;</td>
+      <td class="char-portrait" style="background-image: url('{{ "/assets/images/" | append: pc.portrait_link | relative_url }}');">&nbsp;</td>
       <td><strong>{{ pc.name }}</strong></td>
       <td>{{ pc.race | capitalize }}</td>
       <td>{% if pc.gender == "f" %}&female;

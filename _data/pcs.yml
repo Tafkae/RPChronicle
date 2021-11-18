@@ -24,7 +24,7 @@ toa:
     classes: [[fighter, 8, eldritch knight]]
     in_party: true
     player: Lisa
-    portrait: Lureene_portrait.png
+    portrait_link: /toa/Lureene_portrait.png
   - name: Molly
     race: dragonborn
     gender: f
