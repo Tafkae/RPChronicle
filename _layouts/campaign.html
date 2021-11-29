@@ -4,8 +4,8 @@ layout: default
 {% assign campaign = site.collections | where: "label", page.campaign | first %}
 
 {% if page.campaign %}
-  {% assign campaign = site.data.campaigns | where: "short_name", page.campaign | first %}
-  <h1>{{ campaign.name }}</h1>
+  {% assign cdata = site.data.campaigns | where: "short_name", page.campaign | first %}
+  <h1>{{ cdata.name }}</h1>
 {% endif %}
 
 {{ content }}
