@@ -46,4 +46,4 @@ defaults:
   - scope:
       path: "_nwgirls"
     values:
-      campaign: "_nwgirls"
+      campaign: "nwgirls"
