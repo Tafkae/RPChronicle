@@ -41,11 +41,6 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        {% if page.campaign %}
-          {% assign campaign = site.data.campaigns | where: "short_name", page.campaign | first %}
-          <h1>{{ campaign.name }}</h1>
-        {% endif %}
-
         {{ content }}
       </section>
     </div>

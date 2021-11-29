@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
-{{ content }}
-
 {% assign campaign = site.collections | where: "label", page.campaign | first %}
+
+{% if page.campaign %}
+  {% assign campaign = site.data.campaigns | where: "short_name", page.campaign | first %}
+  <h1>{{ campaign.name }}</h1>
+{% endif %}
+
+{{ content }}
 
 <div class="list-container">
   {% for post in campaign.docs %}
