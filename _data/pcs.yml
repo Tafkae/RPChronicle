@@ -41,7 +41,7 @@ toa:
     race: tiefling
     gender: f
     classes: [[ranger, 7, beastmaster]]
-    in_party: true
+    in_party: false
     player: Breanna
 
 waterdeep:
